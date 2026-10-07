@@ -1,0 +1,9 @@
+application:
+  name: "echo-ai-agent"
+  mode: "monolith"
+routes:
+  execute: "/execute"
+  health: "/health"
+  metadata: "/metadata"
+environment:
+  - "PORT=8080"
