@@ -6,4 +6,4 @@ routes:
   health: "/health"
   metadata: "/metadata"
 environment:
-  - "PORT=8080"
+  - "PORT"
