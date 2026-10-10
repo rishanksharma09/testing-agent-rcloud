@@ -1,9 +1,12 @@
 application:
   name: "echo-ai-agent"
   mode: "monolith"
+  entrypoint: "main.py"
+
 routes:
   execute: "/execute"
   health: "/health"
   metadata: "/metadata"
+
 environment:
   - "PORT"
